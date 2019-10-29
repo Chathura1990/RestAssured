@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[15:29:42 / [TEST STARTED] - API testing with Rest Assured]]>
+    </line>
+    <line>
+      <![CDATA[15:29:47 / [TEST SUCCESSFULLY PASSED]]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Status code is: 200]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Status line is: HTTP/1.1 200 OK]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Content type: application/json]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Response body is: {
+    "City": "Colombo",
+    "Temperature": "22.25 Degree celsius",
+    "Humidity": "68 Percent",
+    "WeatherDescription": "overcast clouds",
+    "WindSpeed": "3.6 Km per hour",
+    "WindDirectionDegree": "10 Degree"
+}]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / [TEST SUCCESSFULLY PASSED]]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Status code is: 201]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Status line is: HTTP/1.1 201 Created]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Content type: application/json]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / Response body is: {
+    "SuccessCode": "OPERATION_SUCCESS",
+    "Message": "Operation completed successfully"
+}]]>
+    </line>
+    <line>
+      <![CDATA[15:29:48 / [TEST SUCCESSFULLY PASSED]]]>
+    </line>
+  </reporter-output>
+  <suite name="All_Verification_Tests" duration-ms="6186" started-at="2019-10-28T15:29:42 MSK" finished-at="2019-10-28T15:29:48 MSK">
+    <groups>
+    </groups>
+    <test name="API testing with Rest Assured" duration-ms="6186" started-at="2019-10-28T15:29:42 MSK" finished-at="2019-10-28T15:29:48 MSK">
+      <class name="apiTestFramework.restAssuredTests.WeatherByGetRequest">
+        <test-method status="PASS" signature="getWeatherDetailsByChainMethod()[pri:1, instance:apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11]" name="getWeatherDetailsByChainMethod" duration-ms="4955" started-at="2019-10-28T15:29:42 MSK" finished-at="2019-10-28T15:29:47 MSK">
+          <reporter-output>
+            <line>
+              <![CDATA[15:29:47 / [TEST SUCCESSFULLY PASSED]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getWeatherDetailsByChainMethod -->
+        <test-method status="PASS" signature="weatherDetailsValidationThroughGET()[pri:2, instance:apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11]" name="weatherDetailsValidationThroughGET" duration-ms="423" started-at="2019-10-28T15:29:47 MSK" finished-at="2019-10-28T15:29:48 MSK">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Status code is: 200]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Status line is: HTTP/1.1 200 OK]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Content type: application/json]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Response body is: {
+    "City": "Colombo",
+    "Temperature": "22.25 Degree celsius",
+    "Humidity": "68 Percent",
+    "WeatherDescription": "overcast clouds",
+    "WindSpeed": "3.6 Km per hour",
+    "WindDirectionDegree": "10 Degree"
+}]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / [TEST SUCCESSFULLY PASSED]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- weatherDetailsValidationThroughGET -->
+        <test-method status="PASS" signature="customerDetailsValidationThroughPOST()[pri:3, instance:apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11]" name="customerDetailsValidationThroughPOST" duration-ms="648" started-at="2019-10-28T15:29:48 MSK" finished-at="2019-10-28T15:29:48 MSK">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Status code is: 201]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Status line is: HTTP/1.1 201 Created]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Content type: application/json]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / Response body is: {
+    "SuccessCode": "OPERATION_SUCCESS",
+    "Message": "Operation completed successfully"
+}]]>
+            </line>
+            <line>
+              <![CDATA[15:29:48 / [TEST SUCCESSFULLY PASSED]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerDetailsValidationThroughPOST -->
+      </class> <!-- apiTestFramework.restAssuredTests.WeatherByGetRequest -->
+    </test> <!-- API testing with Rest Assured -->
+  </suite> <!-- All_Verification_Tests -->
+</testng-results>

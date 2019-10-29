@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  API testing with Rest Assured</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API testing with Rest Assured</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 28 15:29:42 MSK 2019</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6186 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apiTestFramework.restAssuredTests.WeatherByGetRequest.customerDetailsValidationThroughPOST()'><b>customerDetailsValidationThroughPOST</b><br>Test class: apiTestFramework.restAssuredTests.WeatherByGetRequest<br/>
+<a href="#Output-1959708563" onClick='toggleBox("Output-1959708563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1959708563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1959708563">
+<br/>
+15:29:48 / Status code is: 201<br/>
+15:29:48 / Status line is: HTTP/1.1 201 Created<br/>
+15:29:48 / Content type: application/json<br/>
+15:29:48 / Response body is: {
+    "SuccessCode": "OPERATION_SUCCESS",
+    "Message": "Operation completed successfully"
+}<br/>
+15:29:48 / [TEST SUCCESSFULLY PASSED]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11</td></tr>
+<tr>
+<td title='apiTestFramework.restAssuredTests.WeatherByGetRequest.getWeatherDetailsByChainMethod()'><b>getWeatherDetailsByChainMethod</b><br>Test class: apiTestFramework.restAssuredTests.WeatherByGetRequest<br/>
+<a href="#Output-665188480" onClick='toggleBox("Output-665188480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665188480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665188480">
+15:29:47 / [TEST SUCCESSFULLY PASSED]<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11</td></tr>
+<tr>
+<td title='apiTestFramework.restAssuredTests.WeatherByGetRequest.weatherDetailsValidationThroughGET()'><b>weatherDetailsValidationThroughGET</b><br>Test class: apiTestFramework.restAssuredTests.WeatherByGetRequest<br/>
+<a href="#Output-2079961240" onClick='toggleBox("Output-2079961240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2079961240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2079961240">
+<br/>
+15:29:48 / Status code is: 200<br/>
+15:29:48 / Status line is: HTTP/1.1 200 OK<br/>
+15:29:48 / Content type: application/json<br/>
+15:29:48 / Response body is: {
+    "City": "Colombo",
+    "Temperature": "22.25 Degree celsius",
+    "Humidity": "68 Percent",
+    "WeatherDescription": "overcast clouds",
+    "WindSpeed": "3.6 Km per hour",
+    "WindDirectionDegree": "10 Degree"
+}<br/>
+15:29:48 / [TEST SUCCESSFULLY PASSED]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>apiTestFramework.restAssuredTests.WeatherByGetRequest@643b1d11</td></tr>
+</table><p>
+</body>
+</html>

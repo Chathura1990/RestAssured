@@ -1,0 +1,220 @@
+10-28-19 15:57:08 DEBUG [main] Get connection for route {}->http://restapi.demoqa.com:80
+ 10-28-19 15:57:08 DEBUG [main] Connecting to restapi.demoqa.com:80
+ 10-28-19 15:57:08 DEBUG [main] CookieSpec selected: ignoreCookies
+ 10-28-19 15:57:08 DEBUG [main] Auth cache not set in the context
+ 10-28-19 15:57:08 DEBUG [main] Target auth state: UNCHALLENGED
+ 10-28-19 15:57:08 DEBUG [main] Proxy auth state: UNCHALLENGED
+ 10-28-19 15:57:08 DEBUG [main] Attempt 1 to execute request
+ 10-28-19 15:57:08 DEBUG [main] Sending request: GET /utilities/weather/city/Colombo HTTP/1.1
+ 10-28-19 15:57:08 DEBUG [main]  >> "GET /utilities/weather/city/Colombo HTTP/1.1[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "Accept: */*[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "Host: restapi.demoqa.com[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "Connection: Keep-Alive[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  >> "[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main] >> GET /utilities/weather/city/Colombo HTTP/1.1
+ 10-28-19 15:57:08 DEBUG [main] >> Accept: */*
+ 10-28-19 15:57:08 DEBUG [main] >> Host: restapi.demoqa.com
+ 10-28-19 15:57:08 DEBUG [main] >> Connection: Keep-Alive
+ 10-28-19 15:57:08 DEBUG [main] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+ 10-28-19 15:57:08 DEBUG [main] >> Accept-Encoding: gzip,deflate
+ 10-28-19 15:57:08 DEBUG [main]  << "HTTP/1.1 200 OK[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Server: nginx[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Date: Mon, 28 Oct 2019 12:56:24 GMT[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Content-Type: application/json[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Content-Length: 170[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Connection: keep-alive[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Vary: Accept-Encoding[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Content-Encoding: gzip[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Cache-Control: max-age=0[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Expires: Mon, 28 Oct 2019 12:56:24 GMT[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "X-Proxy-Cache: BYPASS[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "[\r][\n]"
+ 10-28-19 15:57:08 DEBUG [main] Receiving response: HTTP/1.1 200 OK
+ 10-28-19 15:57:08 DEBUG [main] << HTTP/1.1 200 OK
+ 10-28-19 15:57:08 DEBUG [main] << Server: nginx
+ 10-28-19 15:57:08 DEBUG [main] << Date: Mon, 28 Oct 2019 12:56:24 GMT
+ 10-28-19 15:57:08 DEBUG [main] << Content-Type: application/json
+ 10-28-19 15:57:08 DEBUG [main] << Content-Length: 170
+ 10-28-19 15:57:08 DEBUG [main] << Connection: keep-alive
+ 10-28-19 15:57:08 DEBUG [main] << Vary: Accept-Encoding
+ 10-28-19 15:57:08 DEBUG [main] << Content-Encoding: gzip
+ 10-28-19 15:57:08 DEBUG [main] << Cache-Control: max-age=0
+ 10-28-19 15:57:08 DEBUG [main] << Expires: Mon, 28 Oct 2019 12:56:24 GMT
+ 10-28-19 15:57:08 DEBUG [main] << Access-Control-Allow-Origin: *
+ 10-28-19 15:57:08 DEBUG [main] << X-Proxy-Cache: BYPASS
+ 10-28-19 15:57:08 DEBUG [main] << alt-svc: quic=":443"; ma=86400; v="43,39"
+ 10-28-19 15:57:08 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:08 DEBUG [main] Parsing response as: application/json
+ 10-28-19 15:57:08 DEBUG [main]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xc1][\n]"
+ 10-28-19 15:57:08 DEBUG [main]  << "[0xc2]0[0x10]D[0xef][0xfd][0x8a]%g)[0xd6]R[0x15][0xaf][0xf6] x[0x11][0x14]z[0xae][0xc9]`[0x3]MS6[0x89] [0xe2][0xbf][0x9b][0xd0]V[0xdc][0xcb][0xc0][0xce][0xe3]1[0xef][0x8c][0xe2][0x89][0xa3][0xf6]/q[0x88]i{k[0xee]V[0xac][0xa6][0xf7][\r]f[0x4][0xb7]>0R[0xbb])[0xf2][0xfd][0x96]j<[0x18] [0x89][0xde][0xe9][0xe0][0x16][0xf4][0x14][0x8c]V[0xb3]eW[0xd2][0x5],1[0xf8][0xa5]m[0xd0][0xfa][0xe]\[0xc3]I[0xd6][0xa3][0xd7]vH[0x9c]}F[0xaa]u[0x9e]do[0x83][0xfa][0xa9][0x1a]=[0xa8][0xeb][0x8][0xa8][0xc4]TyAgCq[0x6]u6[0xf0]?Sk[0x86]L[0xae]iQ[0xa2][0xcb]j=[0xef][0x13][0xd9][0xe7][0xb])*n;[0xdc][0x0][0x0][0x0]"
+ 10-28-19 15:57:08 DEBUG [main] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 10-28-19 15:57:08 DEBUG [main] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1951b871
+ 10-28-19 15:57:08 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:09 DEBUG [main] Get connection for route {}->http://restapi.demoqa.com:80
+ 10-28-19 15:57:09 DEBUG [main] Connecting to restapi.demoqa.com:80
+ 10-28-19 15:57:09 DEBUG [main] CookieSpec selected: ignoreCookies
+ 10-28-19 15:57:09 DEBUG [main] Auth cache not set in the context
+ 10-28-19 15:57:09 DEBUG [main] Target auth state: UNCHALLENGED
+ 10-28-19 15:57:09 DEBUG [main] Proxy auth state: UNCHALLENGED
+ 10-28-19 15:57:09 DEBUG [main] Attempt 1 to execute request
+ 10-28-19 15:57:09 DEBUG [main] Sending request: GET /utilities/weather/city/city/Colombo HTTP/1.1
+ 10-28-19 15:57:09 DEBUG [main]  >> "GET /utilities/weather/city/city/Colombo HTTP/1.1[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Accept: */*[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Host: restapi.demoqa.com[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Connection: Keep-Alive[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main] >> GET /utilities/weather/city/city/Colombo HTTP/1.1
+ 10-28-19 15:57:09 DEBUG [main] >> Accept: */*
+ 10-28-19 15:57:09 DEBUG [main] >> Host: restapi.demoqa.com
+ 10-28-19 15:57:09 DEBUG [main] >> Connection: Keep-Alive
+ 10-28-19 15:57:09 DEBUG [main] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+ 10-28-19 15:57:09 DEBUG [main] >> Accept-Encoding: gzip,deflate
+ 10-28-19 15:57:09 DEBUG [main]  << "HTTP/1.1 200 OK[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Server: nginx[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Date: Mon, 28 Oct 2019 12:56:25 GMT[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Content-Type: application/json[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Content-Length: 170[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Connection: keep-alive[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Vary: Accept-Encoding[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Content-Encoding: gzip[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Cache-Control: max-age=0[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Expires: Mon, 28 Oct 2019 12:56:25 GMT[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "X-Proxy-Cache: BYPASS[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main] Receiving response: HTTP/1.1 200 OK
+ 10-28-19 15:57:09 DEBUG [main] << HTTP/1.1 200 OK
+ 10-28-19 15:57:09 DEBUG [main] << Server: nginx
+ 10-28-19 15:57:09 DEBUG [main] << Date: Mon, 28 Oct 2019 12:56:25 GMT
+ 10-28-19 15:57:09 DEBUG [main] << Content-Type: application/json
+ 10-28-19 15:57:09 DEBUG [main] << Content-Length: 170
+ 10-28-19 15:57:09 DEBUG [main] << Connection: keep-alive
+ 10-28-19 15:57:09 DEBUG [main] << Vary: Accept-Encoding
+ 10-28-19 15:57:09 DEBUG [main] << Content-Encoding: gzip
+ 10-28-19 15:57:09 DEBUG [main] << Cache-Control: max-age=0
+ 10-28-19 15:57:09 DEBUG [main] << Expires: Mon, 28 Oct 2019 12:56:25 GMT
+ 10-28-19 15:57:09 DEBUG [main] << Access-Control-Allow-Origin: *
+ 10-28-19 15:57:09 DEBUG [main] << X-Proxy-Cache: BYPASS
+ 10-28-19 15:57:09 DEBUG [main] << alt-svc: quic=":443"; ma=86400; v="43,39"
+ 10-28-19 15:57:09 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:09 DEBUG [main] Parsing response as: application/json
+ 10-28-19 15:57:09 DEBUG [main]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xc1][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  << "[0xc2]0[0x10]D[0xef][0xfd][0x8a]%g)[0xd6]R[0x15][0xaf][0xf6] x[0x11][0x14]z[0xae][0xc9]`[0x3]MS6[0x89] [0xe2][0xbf][0x9b][0xd0]V[0xdc][0xcb][0xc0][0xce][0xe3]1[0xef][0x8c][0xe2][0x89][0xa3][0xf6]/q[0x88]i{k[0xee]V[0xac][0xa6][0xf7][\r]f[0x4][0xb7]>0R[0xbb])[0xf2][0xfd][0x96]j<[0x18] [0x89][0xde][0xe9][0xe0][0x16][0xf4][0x14][0x8c]V[0xb3]eW[0xd2][0x5],1[0xf8][0xa5]m[0xd0][0xfa][0xe]\[0xc3]I[0xd6][0xa3][0xd7]vH[0x9c]}F[0xaa]u[0x9e]do[0x83][0xfa][0xa9][0x1a]=[0xa8][0xeb][0x8][0xa8][0xc4]TyAgCq[0x6]u6[0xf0]?Sk[0x86]L[0xae]iQ[0xa2][0xcb]j=[0xef][0x13][0xd9][0xe7][0xb])*n;[0xdc][0x0][0x0][0x0]"
+ 10-28-19 15:57:09 DEBUG [main] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 10-28-19 15:57:09 DEBUG [main] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5df417a7
+ 10-28-19 15:57:09 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:09 DEBUG [main] Get connection for route {}->http://restapi.demoqa.com:80
+ 10-28-19 15:57:09 DEBUG [main] Connecting to restapi.demoqa.com:80
+ 10-28-19 15:57:09 DEBUG [main] CookieSpec selected: ignoreCookies
+ 10-28-19 15:57:09 DEBUG [main] Auth cache not set in the context
+ 10-28-19 15:57:09 DEBUG [main] Target auth state: UNCHALLENGED
+ 10-28-19 15:57:09 DEBUG [main] Proxy auth state: UNCHALLENGED
+ 10-28-19 15:57:09 DEBUG [main] Attempt 1 to execute request
+ 10-28-19 15:57:09 DEBUG [main] Sending request: POST /customer/register HTTP/1.1
+ 10-28-19 15:57:09 DEBUG [main]  >> "POST /customer/register HTTP/1.1[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Accept: */*[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Content-Length: 135[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Host: restapi.demoqa.com[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Connection: Keep-Alive[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main]  >> "[\r][\n]"
+ 10-28-19 15:57:09 DEBUG [main] >> POST /customer/register HTTP/1.1
+ 10-28-19 15:57:09 DEBUG [main] >> Accept: */*
+ 10-28-19 15:57:09 DEBUG [main] >> Content-Type: application/json; charset=UTF-8
+ 10-28-19 15:57:09 DEBUG [main] >> Content-Length: 135
+ 10-28-19 15:57:09 DEBUG [main] >> Host: restapi.demoqa.com
+ 10-28-19 15:57:09 DEBUG [main] >> Connection: Keep-Alive
+ 10-28-19 15:57:09 DEBUG [main] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+ 10-28-19 15:57:09 DEBUG [main] >> Accept-Encoding: gzip,deflate
+ 10-28-19 15:57:09 DEBUG [main]  >> "{"UserName":"Jo4yaaaa","Email":"jerryjeramaayaa@gmail.com","FirstName":"Je4raaryaa","LastName":"Jer4aaamaya","Password":"123a4a45ccaa"}"
+ 10-28-19 15:57:10 DEBUG [main]  << "HTTP/1.1 200 OK[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Server: nginx[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Date: Mon, 28 Oct 2019 12:56:26 GMT[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Content-Type: application/json[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Content-Length: 92[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Connection: keep-alive[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Vary: Accept-Encoding[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Content-Encoding: gzip[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Cache-Control: max-age=0[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Expires: Mon, 28 Oct 2019 12:56:26 GMT[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main] Receiving response: HTTP/1.1 200 OK
+ 10-28-19 15:57:10 DEBUG [main] << HTTP/1.1 200 OK
+ 10-28-19 15:57:10 DEBUG [main] << Server: nginx
+ 10-28-19 15:57:10 DEBUG [main] << Date: Mon, 28 Oct 2019 12:56:26 GMT
+ 10-28-19 15:57:10 DEBUG [main] << Content-Type: application/json
+ 10-28-19 15:57:10 DEBUG [main] << Content-Length: 92
+ 10-28-19 15:57:10 DEBUG [main] << Connection: keep-alive
+ 10-28-19 15:57:10 DEBUG [main] << Vary: Accept-Encoding
+ 10-28-19 15:57:10 DEBUG [main] << Content-Encoding: gzip
+ 10-28-19 15:57:10 DEBUG [main] << Cache-Control: max-age=0
+ 10-28-19 15:57:10 DEBUG [main] << Expires: Mon, 28 Oct 2019 12:56:26 GMT
+ 10-28-19 15:57:10 DEBUG [main] << Access-Control-Allow-Origin: *
+ 10-28-19 15:57:10 DEBUG [main] << alt-svc: quic=":443"; ma=86400; v="43,39"
+ 10-28-19 15:57:10 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:10 DEBUG [main] Parsing response as: application/json
+ 10-28-19 15:57:10 DEBUG [main]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab][0xe6]R[0x0][0x2]%[0xb7][0xc4][0xd2][0x9c][0x12][0xcf][0x14]%+[0x5][0xa5][0xd0][0xe2][0xd4]"[0x85][0xc4][0x9c][0xa2][0xd4][0xc4][0x94]J[0x85][0xd4][0x8a][0xcc][0xe2][0x92]b%[0x1d][0x88][0xaa]4[0x90]*[0x90][0x1a]7[0xc7]P[0x9f][0x90][0xf8][0xd0]`[0xd7][0xa0]xG[0x9f] WG[0x97][0xc8]x[0xd7][0x8][0xcf][0xe0][0x90]`%[0xae]Z[0x0][0x1e][0x8b][0xe][0x9a]R[0x0][0x0][0x0]"
+ 10-28-19 15:57:10 DEBUG [main] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ 10-28-19 15:57:10 DEBUG [main] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b672aa8
+ 10-28-19 15:57:10 DEBUG [main] Connection can be kept alive indefinitely
+ 10-28-19 15:57:10 DEBUG [Finalizer] Connection 0.0.0.0:54869<->184.154.68.154:80 closed
+ 10-28-19 15:57:10 DEBUG [main] Get connection for route {}->http://restapi.demoqa.com:80
+ 10-28-19 15:57:10 DEBUG [main] Connecting to restapi.demoqa.com:80
+ 10-28-19 15:57:10 DEBUG [main] CookieSpec selected: ignoreCookies
+ 10-28-19 15:57:10 DEBUG [main] Auth cache not set in the context
+ 10-28-19 15:57:10 DEBUG [main] Target auth state: UNCHALLENGED
+ 10-28-19 15:57:10 DEBUG [main] Proxy auth state: UNCHALLENGED
+ 10-28-19 15:57:10 DEBUG [main] Attempt 1 to execute request
+ 10-28-19 15:57:10 DEBUG [main] Sending request: DELETE /customer/Je4raaryaa HTTP/1.1
+ 10-28-19 15:57:10 DEBUG [main]  >> "DELETE /customer/Je4raaryaa HTTP/1.1[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "Accept: */*[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "Host: restapi.demoqa.com[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "Connection: Keep-Alive[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  >> "[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main] >> DELETE /customer/Je4raaryaa HTTP/1.1
+ 10-28-19 15:57:10 DEBUG [main] >> Content-Type: application/json; charset=UTF-8
+ 10-28-19 15:57:10 DEBUG [main] >> Accept: */*
+ 10-28-19 15:57:10 DEBUG [main] >> Host: restapi.demoqa.com
+ 10-28-19 15:57:10 DEBUG [main] >> Connection: Keep-Alive
+ 10-28-19 15:57:10 DEBUG [main] >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_221)
+ 10-28-19 15:57:10 DEBUG [main] >> Accept-Encoding: gzip,deflate
+ 10-28-19 15:57:10 DEBUG [main]  << "HTTP/1.1 200 OK[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Server: nginx[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Date: Mon, 28 Oct 2019 12:56:26 GMT[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Content-Type: application/json[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Content-Length: 0[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Connection: keep-alive[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Cache-Control: max-age=0[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Expires: Mon, 28 Oct 2019 12:56:26 GMT[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Vary: Accept-Encoding[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "Access-Control-Allow-Origin: *[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main]  << "[\r][\n]"
+ 10-28-19 15:57:10 DEBUG [main] Receiving response: HTTP/1.1 200 OK
+ 10-28-19 15:57:10 DEBUG [main] << HTTP/1.1 200 OK
+ 10-28-19 15:57:10 DEBUG [main] << Server: nginx
+ 10-28-19 15:57:10 DEBUG [main] << Date: Mon, 28 Oct 2019 12:56:26 GMT
+ 10-28-19 15:57:10 DEBUG [main] << Content-Type: application/json
+ 10-28-19 15:57:10 DEBUG [main] << Content-Length: 0
+ 10-28-19 15:57:10 DEBUG [main] << Connection: keep-alive
+ 10-28-19 15:57:10 DEBUG [main] << Cache-Control: max-age=0
+ 10-28-19 15:57:10 DEBUG [main] << Expires: Mon, 28 Oct 2019 12:56:26 GMT
+ 10-28-19 15:57:10 DEBUG [main] << Vary: Accept-Encoding
+ 10-28-19 15:57:10 DEBUG [main] << Access-Control-Allow-Origin: *
+ 10-28-19 15:57:10 DEBUG [main] << alt-svc: quic=":443"; ma=86400; v="43,39"
+ 10-28-19 15:57:10 DEBUG [main] Connection can be kept alive indefinitely
+ 

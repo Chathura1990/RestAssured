@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Verification_Tests">
+              <span class="suite-name border-passed">All_Verification_Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Verification_Tests">
+                    <span>C:\Users\CRajapakse\git\ITSM other AQA projects\soapmaven\src\main\resources\suite1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Verification_Tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Verification_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Verification_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Verification_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Verification_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Verification_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Verification_Tests" class="hide-methods passed suite-All_Verification_Tests"> (hide)</a> <!-- hide-methods passed suite-All_Verification_Tests -->
+                      <a href="#" panel-name="suite-All_Verification_Tests" class="show-methods passed suite-All_Verification_Tests"> (show)</a> <!-- show-methods passed suite-All_Verification_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Verification_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Verification_Tests" title="apiTestFramework.restAssuredTests.WeatherByGetRequest" hash-for-method="customerDetailsValidationThroughPOST">customerDetailsValidationThroughPOST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Verification_Tests" title="apiTestFramework.restAssuredTests.WeatherByGetRequest" hash-for-method="getWeatherDetailsByChainMethod">getWeatherDetailsByChainMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Verification_Tests" title="apiTestFramework.restAssuredTests.WeatherByGetRequest" hash-for-method="weatherDetailsValidationThroughGET">weatherDetailsValidationThroughGET</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Verification_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Verification_Tests" class="panel All_Verification_Tests">
+          <div class="suite-All_Verification_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">apiTestFramework.restAssuredTests.WeatherByGetRequest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerDetailsValidationThroughPOST">
+                  </a> <!-- customerDetailsValidationThroughPOST -->
+                  <span class="method-name">customerDetailsValidationThroughPOST</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getWeatherDetailsByChainMethod">
+                  </a> <!-- getWeatherDetailsByChainMethod -->
+                  <span class="method-name">getWeatherDetailsByChainMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="weatherDetailsValidationThroughGET">
+                  </a> <!-- weatherDetailsValidationThroughGET -->
+                  <span class="method-name">weatherDetailsValidationThroughGET</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Verification_Tests-class-passed -->
+        </div> <!-- panel All_Verification_Tests -->
+        <div panel-name="test-xml-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CRajapakse\git\ITSM other AQA projects\soapmaven\src\main\resources\suite1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;All_Verification_Tests&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;CHROME&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;apiTestFramework.framework.listner.TestNameListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API testing with Rest Assured&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;apiTestFramework.restAssuredTests.WeatherByGetRequest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API testing with Rest Assured --&gt;
+&lt;/suite&gt; &lt;!-- All_Verification_Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All_Verification_Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API testing with Rest Assured (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All_Verification_Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All_Verification_Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Verification_Tests');
+function tableData_All_Verification_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getWeatherDetailsByChainMethod')
+data.setCell(0, 2, 'apiTestFramework.restAssuredTests.WeatherByGetRequest')
+data.setCell(0, 3, 4955);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'customerDetailsValidationThroughPOST')
+data.setCell(1, 2, 'apiTestFramework.restAssuredTests.WeatherByGetRequest')
+data.setCell(1, 3, 648);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'weatherDetailsValidationThroughGET')
+data.setCell(2, 2, 'apiTestFramework.restAssuredTests.WeatherByGetRequest')
+data.setCell(2, 3, 423);
+window.suiteTableData['All_Verification_Tests']= { tableData: data, tableDiv: 'times-div-All_Verification_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-All_Verification_Tests">
+              </div> <!-- times-div-All_Verification_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All_Verification_Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">weatherDetailsValidationThroughGET</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">15:29:48 / Status code is: 200</span>
+                <span class="reporter-method-output">15:29:48 / Status line is: HTTP/1.1 200 OK</span>
+                <span class="reporter-method-output">15:29:48 / Content type: application/json</span>
+                <span class="reporter-method-output">15:29:48 / Response body is: {
+    "City": "Colombo",
+    "Temperature": "22.25 Degree celsius",
+    "Humidity": "68 Percent",
+    "WeatherDescription": "overcast clouds",
+    "WindSpeed": "3.6 Km per hour",
+    "WindDirectionDegree": "10 Degree"
+}</span>
+                <span class="reporter-method-output">15:29:48 / [TEST SUCCESSFULLY PASSED]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">getWeatherDetailsByChainMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">15:29:47 / [TEST SUCCESSFULLY PASSED]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">customerDetailsValidationThroughPOST</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"></span>
+                <span class="reporter-method-output">15:29:48 / Status code is: 201</span>
+                <span class="reporter-method-output">15:29:48 / Status line is: HTTP/1.1 201 Created</span>
+                <span class="reporter-method-output">15:29:48 / Content type: application/json</span>
+                <span class="reporter-method-output">15:29:48 / Response body is: {
+    "SuccessCode": "OPERATION_SUCCESS",
+    "Message": "Operation completed successfully"
+}</span>
+                <span class="reporter-method-output">15:29:48 / [TEST SUCCESSFULLY PASSED]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Verification_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">apiTestFramework.restAssuredTests.WeatherByGetRequest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getWeatherDetailsByChainMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">weatherDetailsValidationThroughGET</span>
+                <span class="method-start">4962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">customerDetailsValidationThroughPOST</span>
+                <span class="method-start">5387 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
