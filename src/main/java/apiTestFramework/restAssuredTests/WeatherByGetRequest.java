@@ -46,6 +46,8 @@ public class WeatherByGetRequest {
 
     @Test(priority = 2, dataProvider = "getTestDataFromJsonFile")
     public void userDetailsValidationThroughGET(UserData userData){
+        System.out.println(" ");
+        System.out.println("Get user information using get method");
         JSONObject requestParams = new JSONObject();
         requestParams.put("email", userData.getEmail());
         RestAPIData restAPIData = APIService.getApiDetailsAndReturnResults(new RestAPIData()
@@ -57,6 +59,8 @@ public class WeatherByGetRequest {
 
     @Test(priority = 3, dataProvider = "getTestDataFromJsonFile")
     public void userDetailsValidationThroughPOST(UserData userData){
+        System.out.println(" ");
+        System.out.println("Get user information using post method");
         JSONObject requestParams = new JSONObject();
         requestParams.put("email", userData.getEmail());
         requestParams.put("name", userData.getName());
@@ -71,6 +75,8 @@ public class WeatherByGetRequest {
 
     @Test(priority = 4, dataProvider = "getTestDataFromJsonFile")
     public void customerDetailsDeletionThroughDELETE(UserData userData){
+        System.out.println(" ");
+        System.out.println("Delete user information using delete method");
         JSONObject requestParams = new JSONObject();
         requestParams.put("email", userData.getEmail());
         APIService.deleteApiDetailsAndReturnResults(new RestAPIData()

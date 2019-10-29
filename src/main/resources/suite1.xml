@@ -3,8 +3,6 @@
 
 <suite name="All_Verification_Tests">
     <parameter name = "browser" value = "CHROME"/>
-    <listeners>
-    </listeners>
 
     <test name="API testing with Rest Assured">
         <classes>
